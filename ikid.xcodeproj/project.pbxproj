@@ -18,6 +18,15 @@
 		EE262AF126426B7F0038EBDB /* DadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE262AF026426B7F0038EBDB /* DadViewController.swift */; };
 		EE262AF3264270140038EBDB /* DadPunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE262AF2264270140038EBDB /* DadPunchViewController.swift */; };
 		EE262AF5264270340038EBDB /* DadFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE262AF4264270340038EBDB /* DadFaceViewController.swift */; };
+		EE262AF726427BCF0038EBDB /* PunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE262AF626427BCF0038EBDB /* PunViewController.swift */; };
+		EE262AF926427BE70038EBDB /* GoodFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE262AF826427BE70038EBDB /* GoodFaceViewController.swift */; };
+		EE262AFB26427BF50038EBDB /* GoodPunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE262AFA26427BF50038EBDB /* GoodPunchViewController.swift */; };
+		EE262AFD26427DBF0038EBDB /* GoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE262AFC26427DBF0038EBDB /* GoodViewController.swift */; };
+		EE262AFF26427DEE0038EBDB /* PunFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE262AFE26427DEE0038EBDB /* PunFaceViewController.swift */; };
+		EE262B0126427E080038EBDB /* PunPunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE262B0026427E080038EBDB /* PunPunchViewController.swift */; };
+		EE262B3F26429B410038EBDB /* NewGoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE262B3E26429B410038EBDB /* NewGoodViewController.swift */; };
+		EE262B4126429B4E0038EBDB /* NewPunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE262B4026429B4E0038EBDB /* NewPunViewController.swift */; };
+		EE262B4326429B640038EBDB /* NewDadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE262B4226429B640038EBDB /* NewDadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +64,15 @@
 		EE262AF026426B7F0038EBDB /* DadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadViewController.swift; sourceTree = "<group>"; };
 		EE262AF2264270140038EBDB /* DadPunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadPunchViewController.swift; sourceTree = "<group>"; };
 		EE262AF4264270340038EBDB /* DadFaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadFaceViewController.swift; sourceTree = "<group>"; };
+		EE262AF626427BCF0038EBDB /* PunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunViewController.swift; sourceTree = "<group>"; };
+		EE262AF826427BE70038EBDB /* GoodFaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodFaceViewController.swift; sourceTree = "<group>"; };
+		EE262AFA26427BF50038EBDB /* GoodPunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodPunchViewController.swift; sourceTree = "<group>"; };
+		EE262AFC26427DBF0038EBDB /* GoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodViewController.swift; sourceTree = "<group>"; };
+		EE262AFE26427DEE0038EBDB /* PunFaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunFaceViewController.swift; sourceTree = "<group>"; };
+		EE262B0026427E080038EBDB /* PunPunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunPunchViewController.swift; sourceTree = "<group>"; };
+		EE262B3E26429B410038EBDB /* NewGoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGoodViewController.swift; sourceTree = "<group>"; };
+		EE262B4026429B4E0038EBDB /* NewPunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPunViewController.swift; sourceTree = "<group>"; };
+		EE262B4226429B640038EBDB /* NewDadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +127,15 @@
 				EE262AC22642583F0038EBDB /* SceneDelegate.swift */,
 				EE262AC42642583F0038EBDB /* ViewController.swift */,
 				EE262AC62642583F0038EBDB /* Main.storyboard */,
+				EE262B3E26429B410038EBDB /* NewGoodViewController.swift */,
+				EE262B4026429B4E0038EBDB /* NewPunViewController.swift */,
+				EE262B4226429B640038EBDB /* NewDadViewController.swift */,
+				EE262B0026427E080038EBDB /* PunPunchViewController.swift */,
+				EE262AFE26427DEE0038EBDB /* PunFaceViewController.swift */,
+				EE262AFC26427DBF0038EBDB /* GoodViewController.swift */,
+				EE262AF626427BCF0038EBDB /* PunViewController.swift */,
+				EE262AF826427BE70038EBDB /* GoodFaceViewController.swift */,
+				EE262AFA26427BF50038EBDB /* GoodPunchViewController.swift */,
 				EE262AF026426B7F0038EBDB /* DadViewController.swift */,
 				EE262AF2264270140038EBDB /* DadPunchViewController.swift */,
 				EE262AF4264270340038EBDB /* DadFaceViewController.swift */,
@@ -269,10 +296,19 @@
 			files = (
 				EE262AC52642583F0038EBDB /* ViewController.swift in Sources */,
 				EE262AF5264270340038EBDB /* DadFaceViewController.swift in Sources */,
+				EE262AFF26427DEE0038EBDB /* PunFaceViewController.swift in Sources */,
 				EE262AC12642583F0038EBDB /* AppDelegate.swift in Sources */,
+				EE262B3F26429B410038EBDB /* NewGoodViewController.swift in Sources */,
+				EE262AF726427BCF0038EBDB /* PunViewController.swift in Sources */,
+				EE262AFB26427BF50038EBDB /* GoodPunchViewController.swift in Sources */,
+				EE262AFD26427DBF0038EBDB /* GoodViewController.swift in Sources */,
+				EE262B4326429B640038EBDB /* NewDadViewController.swift in Sources */,
+				EE262B0126427E080038EBDB /* PunPunchViewController.swift in Sources */,
+				EE262B4126429B4E0038EBDB /* NewPunViewController.swift in Sources */,
 				EE262AF3264270140038EBDB /* DadPunchViewController.swift in Sources */,
 				EE262AF126426B7F0038EBDB /* DadViewController.swift in Sources */,
 				EE262AC32642583F0038EBDB /* SceneDelegate.swift in Sources */,
+				EE262AF926427BE70038EBDB /* GoodFaceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
