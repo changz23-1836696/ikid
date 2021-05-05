@@ -15,6 +15,9 @@
 		EE262ACD264258400038EBDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE262ACB264258400038EBDB /* LaunchScreen.storyboard */; };
 		EE262AD8264258400038EBDB /* ikidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE262AD7264258400038EBDB /* ikidTests.swift */; };
 		EE262AE3264258400038EBDB /* ikidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE262AE2264258400038EBDB /* ikidUITests.swift */; };
+		EE262AF126426B7F0038EBDB /* DadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE262AF026426B7F0038EBDB /* DadViewController.swift */; };
+		EE262AF3264270140038EBDB /* DadPunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE262AF2264270140038EBDB /* DadPunchViewController.swift */; };
+		EE262AF5264270340038EBDB /* DadFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE262AF4264270340038EBDB /* DadFaceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		EE262ADE264258400038EBDB /* ikidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ikidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE262AE2264258400038EBDB /* ikidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ikidUITests.swift; sourceTree = "<group>"; };
 		EE262AE4264258400038EBDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE262AF026426B7F0038EBDB /* DadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadViewController.swift; sourceTree = "<group>"; };
+		EE262AF2264270140038EBDB /* DadPunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadPunchViewController.swift; sourceTree = "<group>"; };
+		EE262AF4264270340038EBDB /* DadFaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadFaceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				EE262AC22642583F0038EBDB /* SceneDelegate.swift */,
 				EE262AC42642583F0038EBDB /* ViewController.swift */,
 				EE262AC62642583F0038EBDB /* Main.storyboard */,
+				EE262AF026426B7F0038EBDB /* DadViewController.swift */,
+				EE262AF2264270140038EBDB /* DadPunchViewController.swift */,
+				EE262AF4264270340038EBDB /* DadFaceViewController.swift */,
 				EE262AC9264258400038EBDB /* Assets.xcassets */,
 				EE262ACB264258400038EBDB /* LaunchScreen.storyboard */,
 				EE262ACE264258400038EBDB /* Info.plist */,
@@ -259,7 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE262AC52642583F0038EBDB /* ViewController.swift in Sources */,
+				EE262AF5264270340038EBDB /* DadFaceViewController.swift in Sources */,
 				EE262AC12642583F0038EBDB /* AppDelegate.swift in Sources */,
+				EE262AF3264270140038EBDB /* DadPunchViewController.swift in Sources */,
+				EE262AF126426B7F0038EBDB /* DadViewController.swift in Sources */,
 				EE262AC32642583F0038EBDB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
