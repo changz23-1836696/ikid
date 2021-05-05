@@ -4,6 +4,7 @@
 //
 //  Created by 曾畅 on 5/5/21.
 //
+//mar
 
 import UIKit
 
@@ -17,7 +18,7 @@ class GoodViewController: UIViewController {
 
         punchlineBuilder()
         faceBuilder()
-        swiftViewController(self, to: goodFaceViewController)
+        swiftViewController(nil, to: goodFaceViewController)
         // Do any additional setup after loading the view.
     }
 

@@ -18,11 +18,12 @@ class PunViewController: UIViewController {
 
         punchlineBuilder()
         faceBuilder()
-        swiftViewController(self, to: punFaceViewController)
+        swiftViewController(nil, to: punFaceViewController)
         // Do any additional setup after loading the view.
     }
 
     @IBAction func switchView(_ sender: Any) {
+        
 
         UIView.beginAnimations("View Flip", context: nil)
         UIView.setAnimationDuration(0.4)
